@@ -1,0 +1,139 @@
+
+  .options {
+    text-align: center;
+  }
+  .option {
+    color: #de645b;
+  }
+  .container {
+    background-color: #fff;
+    padding: 5%;
+  }
+  .form-control {
+    border-radius: 20px;
+    border-color: #dedede;
+  }
+  #mail {
+    background-color: #fceae8;
+  }
+  #pass {
+    background-color: #fceae8;
+  }
+  #btn {
+    background-color: #de645b;
+    color: #fff;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .red-color{
+    color:#de645b;
+  }
+  .red-text{
+    color:red;
+  }
+
+  .account-create {
+    background-color: #fff;
+    padding: 5%;
+    overflow-y: scroll;
+  }
+  #mail {
+    background-color: #fceae8;
+  }
+  #pass {
+    background-color: #fceae8;
+  }
+  #btn {
+    background-color: #de645b;
+    color: #fff;
+    border-radius: 20px;
+  }
+  #title {
+    text-align: center;
+  }
+  
+
+
+  div#sidebar-1 {
+    width:80%;
+  }
+  button.btn.btn-secondary.collapsed {
+    border-radius:100%;
+    width:20%;
+    height:15%;
+    position:relative;
+    top:-50px;
+}
+button.btn.btn-primary {
+  position:fixed;
+  bottom:10%;
+}
+svg.svg-inline--fa.fa-arrow-left.fa-w-14 {
+  position:fixed;
+  top:0px;
+  bottom:0px;
+  z-index:0;
+  left:0px;
+  font-size:30px;
+  border:1px solid #928e8e;
+  border-radius:100%;
+  padding:2px;
+  margin:8px;
+  background:#807979;
+  color:#130f0f
+}
+svg#exitFollowing {
+  background:none;
+  color:#fff;
+  border:none
+}
+li#following {
+  position:relative;
+  color:#fff;
+  font-size:20px;
+  left:40%;
+  bottom:16px;
+
+}
+svg.svg-inline--fa.fa-user-plus.fa-w-20 {
+  color:#fff;
+  font-size:20px;
+  position:fixed;
+  top:11px;
+  right:11px;
+}
+nav.navbar.navbar-expand-sm.fixed-top {
+  background-color: #de645b;
+}
+
+nav.navbar.navbar-expand-sm.sticky-top {
+  background:#de645b;
+}
+a.scrollactive-item {
+  color:#fff;
+  word-spacing:9px;
+}
+svg.svg-inline--fa.fa-bars.fa-w-14.collapsed {
+  font-size:30px;
+  position:fixed;
+  top:0px;
+  margin:10px;
+  color: #de645b;
+}
+button.btn.btn-danger {
+  border-radius:20px;
+  padding:5px;
+  position:absolute;
+  right:5px;
+}
+
+@media only screen and (min-width: 993px) {
+  .navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    right: 0px;
+    position: absolute;
+}
+}
